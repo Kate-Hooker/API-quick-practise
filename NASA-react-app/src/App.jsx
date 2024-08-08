@@ -8,8 +8,9 @@ function App() {
 
     <div>
       <Main/>
+      <SideBar>HI IM A SIDEBAR TITLE</SideBar>
       <Footer/>
-      <SideBar/>
+      
     </div>
   )
 }
