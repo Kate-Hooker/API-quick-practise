@@ -12,9 +12,22 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* the asterisk applies settings to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #root {
   min-height: 100vh;
+  display: relative;
+}
+
+.imgContainer {
   display: flex;
+  flex-direction: column;
 }
 
 .bgImage {
@@ -22,4 +35,11 @@
   height: 100%;
   flex: 1;
   object-fit: cover;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
