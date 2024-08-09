@@ -36,7 +36,9 @@
   object-fit: cover;
 }
 
-footer {
+
+
+.footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -85,4 +87,30 @@ footer {
   margin-left: auto;
   background:#030615;
 
+}
+
+.sidebarContents div {
+  flex: 1;
+}
+
+.sidebarContents button {
+  background: transparent;
+  color:white;
+  border: none;
+  outline: none;
+  margin-right: auto;
+}
+
+/* allows for big screens to dispaly app nicely */
+@media (min-width: 640px) {
+  .sidebar {
+    position: realtive;
+    inset: unset;
+    min-width: 30%;
+    box-shadow: 0 0 40px 1px #030615;
+  }
+
+  .sidebarContents{
+    margin: unset;
+  }
 }
