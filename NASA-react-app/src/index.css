@@ -145,6 +145,7 @@ footer button:hover {
   margin-right: auto;
   cursor: pointer;
   transition-duration: 200ms;
+  padding: 1rem;
 }
 
 .sidebarContents button:hover {
