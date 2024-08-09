@@ -143,6 +143,12 @@ footer button:hover {
   border: none;
   outline: none;
   margin-right: auto;
+  cursor: pointer;
+  transition-duration: 200ms;
+}
+
+.sidebarContents button:hover {
+  opacity: 0.7;
 }
 
 /* allows for big screens to dispaly app nicely */
