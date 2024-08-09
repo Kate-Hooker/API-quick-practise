@@ -36,9 +36,7 @@
   object-fit: cover;
 }
 
-
-
-.footer {
+/* .footer {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -48,6 +46,53 @@
   justify-content: space-between;
   gap: 1rem;
 }
+*/
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+footer div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h2 {
+  font-size: 1.4rem;
+}
+
+footer h1 {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+
+footer button {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1rem;
+  transition-duration: 200ms;
+  cursor: pointer;
+}
+
+footer button i {
+  font-size: 1.3rem;
+}
+
+footer button:hover {
+  opacity: 0.7;
+}
+
+/* */
 
 .bgGradient {
   position: absolute;
@@ -68,7 +113,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background:#030615;
+  background: #030615;
   opacity: 0.6;
 }
 
@@ -85,8 +130,7 @@
   max-height: 600px;
   max-width: 800px;
   margin-left: auto;
-  background:#030615;
-
+  background: #030615;
 }
 
 .sidebarContents div {
@@ -95,7 +139,7 @@
 
 .sidebarContents button {
   background: transparent;
-  color:white;
+  color: white;
   border: none;
   outline: none;
   margin-right: auto;
@@ -110,7 +154,7 @@
     box-shadow: 0 0 40px 1px #030615;
   }
 
-  .sidebarContents{
+  .sidebarContents {
     margin: unset;
   }
 }
