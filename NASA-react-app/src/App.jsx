@@ -14,7 +14,7 @@ function App() {
     <div>
       <Main />
 
-      {showModal && <SideBar />}
+      {showModal && <SideBar handleToggleModal={handleToggleModal}/>}
       <Footer showModal={handleToggleModal} />
     </div>
     /* the showModal && booolean means if showModal is true show the SideBar
