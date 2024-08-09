@@ -7,7 +7,6 @@ function App() {
   const [showModal, setShowModal] = useState(false)
 
   function handleToggleModal() {
-
     setShowModal(!showModal)
   }
 
@@ -16,7 +15,7 @@ function App() {
       <Main />
 
       {showModal && <SideBar />}
-      <Footer showModal={showModal}/>
+      <Footer showModal={handleToggleModal} />
     </div>
     /* the showModal && booolean means if showModal is true show the SideBar
 
@@ -26,10 +25,7 @@ function App() {
       these props are imported from footer 
     
     */
-
-  
   )
 }
-
 
 export default App
